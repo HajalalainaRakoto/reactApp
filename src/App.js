@@ -1,9 +1,14 @@
 import './App.css';
+import TodoFormulaire from './components/TodoFormulaire';
 import TodoList from './components/TodoList';
 
 function App() {
   return (
-    <TodoList />
+    <div>
+      <TodoFormulaire />
+      <TodoList />
+    </div>
+
   );
 }
 
