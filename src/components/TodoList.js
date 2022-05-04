@@ -16,12 +16,12 @@ const TodoList = () => {
         }
     ];
     return (
-        <div className='todoList'>
+        <div className="mx-auto text-center mt-2 p-3">
             <h3 className='text-center'>TodoList</h3>
             {
                 todoList.map((data) => (
                     <ul className='list-group list-group-horizontal'>
-                        <li className='list-group-item col-8 border-0'>{data.name}</li>
+                        <li className='list-group-item col-7 border-0'>{data.name}</li>
                         <li className='list-group-item  border-0'>
                             <div className='form-check form-check-inline'>
                                 <label className='form-check-label'>
