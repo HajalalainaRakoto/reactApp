@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className="mx-auto text-center border border-info mt-2 p-3" style= {{width: "700px", backgroundcolor: "#eee;"}}>
+    <div className="mx-auto text-center border border-info mt-2 p-3" style= {{width: "700px"}}>
       <h3>To Do Input</h3>
         <div className="input-group rounded border border-primary mt-5">
           <div className="input-group-append">
