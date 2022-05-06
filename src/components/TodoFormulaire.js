@@ -12,7 +12,7 @@ const TodoFormulaire = () => {
                     </div>
                     <input type="text" className="form-control bg-light border-0" placeholder="New To Do"></input>
                 </div>
-                <div class="mb-3">
+                <div className="mb-3">
                     <button type="submit" className="btn btn-primary text-center mt-3 w-100">Add new task</button>
                 </div>
             </div>
