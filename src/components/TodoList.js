@@ -112,6 +112,12 @@ const TodoList = () => {
         return filtre;
     }
 
+    // function ajouter() {
+    //     var newTask = {id:24, task:"koto", complete:false};
+    //     var allTasks = todoList.concat(newTask);
+    //     return allTasks;
+    // }
+
     return (
         <div className="mx-auto text-center mt-2 p-3" id='todoList'>
             <h3 className='text-center'>TodoList</h3>
@@ -130,7 +136,7 @@ const TodoList = () => {
                             <button className='btn btn-warning' disabled={data.complete} >Edit</button>
                         </li>
                         <li className='list-group-item  border-0'>
-                            <button className='btn btn-danger' ob="" onClick={() => setTodoList(suppression(data.id))}>Delete</button>
+                            <button className='btn btn-danger' onClick={() => setTodoList(suppression(data.id))}>Delete</button>
                         </li>
                     </ul>
                 ))
