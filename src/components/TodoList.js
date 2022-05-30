@@ -14,7 +14,7 @@ const TodoList = ({todoList, setTodoList}) => {
             <h3 className='text-center'>TodoList</h3>
             {
                 todoList.map((data) => (
-                    <ul key={data.id} id={'list' + data.id} className='list-group list-group-horizontal'>
+                    <ul key={data.id} className='list-group list-group-horizontal'>
                         <li className='list-group-item col-7 border-0'>{data.task}</li>
                         <li className='list-group-item  border-0'>
                             <div className='form-check form-check-inline'>

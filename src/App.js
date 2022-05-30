@@ -110,7 +110,7 @@ function App() {
 
   return (
     <>
-      <TodoFormulaire />
+      <TodoFormulaire todoList={todoList} setTodoList={setTodoList} />
       <TodoList todoList={todoList} setTodoList={setTodoList} />
     </>
 
